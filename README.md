@@ -3,7 +3,7 @@
 [![Scrapy](https://img.shields.io/badge/-Scrapy-464646?style=flat&logo=Scrapy&logoColor=ffffff&color=043A6B)](https://www.djangoproject.com/)
 
 Small and simple asynchronous parser based on Scrapy framework to get latest [PEP changes](https://www.python.org/). 
-Collects from every PEP page and saves it in .csv files:
+Collects from every PEP page and saves into .csv files:
 * List of PEP's (number, name, status)
 * Counts every status and total summary
 
