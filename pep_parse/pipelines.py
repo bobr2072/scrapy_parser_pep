@@ -41,7 +41,7 @@ class PepParsePipeline:
 
         with open(file_path, 'w', encoding='utf-8') as f:
 
-            f.write('Статус,Количество\n')
+            f.write('Status,Amount\n')
 
             writer = csv.writer(f, dialect='unix')
             writer.writerows(special_format_for_writing)
